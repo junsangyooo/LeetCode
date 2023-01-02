@@ -1,3 +1,4 @@
+# 242. Valid Anagram
 class Solution(object):
     def isAnagram(self, s, t):
         """
@@ -11,3 +12,4 @@ class Solution(object):
                 return False
         
         return len(s) == len(t)
+        
