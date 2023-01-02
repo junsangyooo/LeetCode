@@ -1,4 +1,4 @@
-# 1. Two Sum
+# 1. Two Sum Python
 class Solution(object):
     def twoSum(self, nums, target):
         """

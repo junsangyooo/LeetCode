@@ -1,4 +1,4 @@
-# 217. Contains Duplicate
+# 217. Contains Duplicate Python
 class Solution(object):
     def containsDuplicate(self, nums):
         """

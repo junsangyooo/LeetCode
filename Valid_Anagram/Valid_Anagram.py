@@ -1,4 +1,4 @@
-# 242. Valid Anagram
+# 242. Valid Anagram Python
 class Solution(object):
     def isAnagram(self, s, t):
         """
