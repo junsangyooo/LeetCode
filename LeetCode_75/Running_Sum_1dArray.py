@@ -12,3 +12,4 @@ class Solution(object):
             else:
                 lst.append(num + lst[index - 1])
         return lst
+        
