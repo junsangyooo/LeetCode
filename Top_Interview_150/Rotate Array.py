@@ -7,23 +7,19 @@ class Solution(object):
         :type k: int
         :rtype: None Do not return anything, modify nums in-place instead.
         """
-        length = len(nums)
-        k = k % length
+        l = len(nums)
         count = 0
         start = 0
-
-        while count < length:
+        while count < l:
             current = start
             prev = nums[start]
 
             while True:
-                nxt = (current + k) % length
-                tmp = nums[nxt]
-                nums[nxt] = prev
-                prev = tmp
+                nxt = (current + k) % l
+                nums[nxt], prev = prev, nums[nxt]
                 current = nxt
                 count += 1
                 if start == current: break
-        
-            start+=1
-
+            
+            start += 1
+            
